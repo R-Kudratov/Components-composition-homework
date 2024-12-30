@@ -1,0 +1,27 @@
+.table {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1vmin;
+	margin: 2vmin auto;
+}
+
+.table > span {
+	width: 22vmin;
+	height: 22vmin;
+	display: grid;
+	place-items: center;
+	font-weight: 300;
+	font-size: 18vmin;
+	line-height: 1;
+	color: #776a5e;
+	background: #feead8;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.table > span:hover {
+	background-color: #ffe6cc;
+}

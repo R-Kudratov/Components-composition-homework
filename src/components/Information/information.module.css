@@ -1,0 +1,13 @@
+.info {
+	text-align: center;
+	font-size: 1.3em;
+	padding: 1em;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	background-color: #feead8;
+	color: #776a5e;
+	border: none;
+	position: relative;
+	margin: 0;
+	display: block;
+}
